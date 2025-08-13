@@ -26,27 +26,6 @@ This project demonstrates skills in **data engineering, cloud integration, and a
 
 ---
 
-## 📂 Project Structure
-covid-data-pipeline/
-│
-├── notebooks/
-│ └── COVID_S3_Pipeline_Colab.ipynb # Main pipeline in Google Colab
-│
-├── scripts/
-│ ├── fetch_data.py # Fetches raw COVID-19 data from API
-│ ├── transform_data.py # Cleans and transforms data
-│
-├── data/ # (Optional) Local data storage
-│
-├── README.md # Project documentation
-└── requirements.txt # Required Python libraries
-
-yaml
-Copy
-Edit
-
----
-
 ## ⚙️ How It Works
 1. **Extract**  
    - `fetch_data.py` calls a public COVID-19 API (`disease.sh`) to retrieve the latest global and country-level data.
