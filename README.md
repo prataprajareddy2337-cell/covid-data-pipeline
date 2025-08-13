@@ -3,6 +3,8 @@
 An end-to-end **ETL (Extract, Transform, Load)** pipeline that fetches live COVID-19 data, processes it into a clean format, and stores it in an **AWS S3 bucket** for further analytics or reporting.  
 This project demonstrates skills in **data engineering, cloud integration, and automation**.
 
+![COVID Pipeline Architecture](https://github.com/prataprajareddy2337-cell/covid-data-pipeline/blob/main/covid_pipeline_architecture.png)
+
 ---
 
 ## 📌 Features
